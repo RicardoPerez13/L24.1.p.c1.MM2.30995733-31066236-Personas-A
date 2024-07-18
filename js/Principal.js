@@ -42,6 +42,5 @@ grupo.procesar(persona12);
 
 let salida=document.getElementById("salida");
 salida.innerHTML="Resultados del Grupo";
-salida.innerHTML+="<br> El número de personas es: "+grupo.devolverPersonas();
 salida.innerHTML+="<br> El porcentaje de Mujeres es de: "+grupo.porcMujeres().toFixed(2)+"%";
 salida.innerHTML+="<br> En el grupo hay: "+grupo.cantidad();

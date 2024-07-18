@@ -1,26 +1,26 @@
 export default class Cl_Persona {
     constructor () {  
-    this.cont_f= 0;
-    this.cont_m= 0;
+    this.cont_F= 0;
+    this.cont_M= 0;
     this.cont_tot= 0;
     }
     procesar (persona) {
         this.cont_tot++;
         if (persona.sexo=="F") {
-            this.cont_f++;
+            this.cont_F++;
         }
         if (persona.sexo=="M") {
-            this.cont_m++;
+            this.cont_M++;
         }
     }
     devolverPersonas () {
         return this.cont_tot;
     }
     devolverHombres () {
-        return this.cont_m;
+        return this.cont_M;
     }
     porcMujeres () {
-        return (this.cont_f*100)/this.cont_tot;
+        return (this.cont_F*100)/this.cont_tot;
     }
     cantidad() {
         if (this.cont_F === this.cont_M) {
