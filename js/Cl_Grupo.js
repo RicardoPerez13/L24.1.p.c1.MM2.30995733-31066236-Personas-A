@@ -24,13 +24,13 @@ export default class Cl_Persona {
     }
     cantidad() {
         if (this.cont_F === this.cont_M) {
-            return 'Igual cantidad de hombres y mujeres';
+            return 'Igual cantidad de Hombres y Mujeres';
         }
         else if (this.cont_M > this.cont_F) {
-            return 'Hay mas hombres';
+            return 'Hay mas Hombres que Mujeres';
         } 
         else if (this.cont_F > this.cont_M) {
-            return 'Hay mas mujeres';
+            return 'Hay mas Mujeres que Hombres';
         } 
     }
 }
